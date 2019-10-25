@@ -1,0 +1,7 @@
+<p style="color: red;">Scenario6!</p>
+
+<p style="color: rgb(184, 65, 65)">Parent component</p>
+<h3 style="color: royalblue">{{manager | titlecase}}</h3>
+<app-component62 (childEvent)="manager=$event"></app-component62>
+ <!-- send data to 2nd child -->
+<app-component63 [parentData]="manager"></app-component63>
